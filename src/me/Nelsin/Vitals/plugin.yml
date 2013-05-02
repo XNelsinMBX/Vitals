@@ -1,7 +1,7 @@
 name: Vitals
 version: 1.0.0
 author: Nelsin
-Commands:
+commands:
          Needs:
                description: Shows the developers for this server-mod
                usage: /<command>
