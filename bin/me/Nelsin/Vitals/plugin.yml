@@ -1,6 +1,6 @@
 name: Vitals
 version: 1.0.0
-author: Nelsin
+author: [Nelsin,Igorvanloo]
 Commands:
          Needs:
                description: Shows the developers for this server-mod
