@@ -10,6 +10,7 @@ the full aspect of the game.
 This plugin mainly focuses on commands to make the server easier.
 
 Our dedicated team:
+
 Manager/Project Lead: Nelsin
 
 Project Lead: Igorvanloo
