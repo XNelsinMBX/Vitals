@@ -11,7 +11,9 @@ This plugin mainly focuses on commands to make the server easier.
 
 Our dedicated team:
 Manager/Project Lead: Nelsin
-Former Author: Igorvanloo
+
+Project Lead: Igorvanloo
+
 Contributor: Kukelekuuk00
 
 
