@@ -30,11 +30,13 @@ public class Vitals extends JavaPlugin {
         } else if (cmd.getName().equalsIgnoreCase("Hi")) {
         	player.sendMessage(ChatColor.AQUA + "Hi");
         	return true;
-        } else if (cmd.getBane().equalsIgnoreCase("hallo")) {
+        } else if (cmd.getName().equalsIgnoreCase("hallo")) {
         player.sendMessage(ChatColor.AQUA + "Hallo");
         return true;
+        } else if (cmd.get().equalsIgnoreCase("Bonjour")) {
+        player.sendMessage(ChatColor.AQUA + "Bonjour');
+        return true;
         } else {
-        return false;
-        }
+        return false
     }  
 }
