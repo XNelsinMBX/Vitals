@@ -34,7 +34,7 @@ public class Vitals extends JavaPlugin {
         player.sendMessage(ChatColor.AQUA + "Hallo");
         return true;
         } else if (cmd.get().equalsIgnoreCase("Bonjour")) {
-        player.sendMessage(ChatColor.AQUA + "Bonjour');
+        player.sendMessage(ChatColor.AQUA + "Bonjour");
         return true;
         } else {
         return false
