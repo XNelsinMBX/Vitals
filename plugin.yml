@@ -14,4 +14,7 @@ commands:
          Hi:
             description: Server says "hi" back
             usage: /<command>
+         Hallo:
+               description: Server says "hallo" back. German Version
+               usage: /<command>
          
