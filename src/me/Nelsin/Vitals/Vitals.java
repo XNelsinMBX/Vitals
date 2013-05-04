@@ -22,7 +22,7 @@ public class Vitals extends JavaPlugin {
            player.sendMessage(ChatColor.AQUA + "This Servers tips are: 1./n 2./n 3./n 4./n 5./n"); //Shows the list of tips for current server
             return true;
         } else if (cmd.getName().equalsIgnoreCase("vitals")) {
-          player.sendMessage(ChatColor.GREEN + "Manager: Nelsin/n Project Lead: Igorvanloo/n Developers:"); //Shows list of Developers
+           player.sendMessage(ChatColor.GREEN + "Manager: Nelsin/n Project Lead: Igorvanloo/n Developers:"); //Shows list of Developers
             return true;
         } else if (cmd.getName().equalsIgnoreCase("hello")) {
         	player.sendMessage(ChatColor.AQUA + "Hello");
