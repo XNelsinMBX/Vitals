@@ -25,7 +25,7 @@ public class Vitals extends JavaPlugin {
            player.sendMessage(ChatColor.GREEN + "Manager: Nelsin/n Project Lead: Igorvanloo/n Developers:"); //Shows list of Developers
             return true;
         } else if (cmd.getName().equalsIgnoreCase("hello")) {
-        	 player.sendMessage(ChatColor.AQUA + "Hello");
+           player.sendMessage(ChatColor.AQUA + "Hello");
         	return true;
         } else if (cmd.getName().equalsIgnoreCase("Hi")) {
            player.sendMessage(ChatColor.AQUA + "Hi");
