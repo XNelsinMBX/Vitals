@@ -21,7 +21,7 @@ public class Vitals extends JavaPlugin {
         if (cmd.getName().equalsIgnoreCase("tips")) {
             player.sendMessage(ChatColor.AQUA + "This Servers tips are: 1./n 2./n 3./n 4./n 5./n"); //Shows the list of tips for current server
             return true;
-        } else if (cmd.getName().equalsIgnoreCase("needs")) {
+        } else if (cmd.getName().equalsIgnoreCase("vitals")) {
             player.sendMessage(ChatColor.GREEN + "Manager: Nelsin/n Project Lead: Igorvanloo/n Developers:"); //Shows list of Developers
             return true;
         } else if (cmd.getName().equalsIgnoreCase("hello")) {
