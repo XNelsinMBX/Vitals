@@ -17,4 +17,5 @@ commands:
          Hallo:
                description: Server says "hallo" back. German Version
                usage: /<command>
-         
+         bonjour:
+                 description: Server says "Bonjour" back. French Version
