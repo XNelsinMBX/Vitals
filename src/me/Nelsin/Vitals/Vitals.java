@@ -8,6 +8,10 @@ import org.bukkit.plugin.java.JavaPlugin;
  
  
 public class Vitals extends JavaPlugin {
+ 
+    public void OnPlayerLogin(PlayerLoginEvent event) {
+     player.sendMessage(ChatColor.AQUA + "Welcome to this server")
+    }
    
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
        
