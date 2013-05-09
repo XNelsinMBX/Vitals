@@ -11,6 +11,16 @@ public class Vitals extends JavaPlugin {
    
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
        
+    @Override
+    public void onEnable(){
+      getLogger().info("Vitals has been enabled sucessfully")
+    }
+ 
+    @Override
+    public void onDisable() {
+        getLogger().info("Vitals has been disabled sucessfully")
+    }
+       
         if (!(sender instanceof Player )) {
             sender.sendMessage("The console ran the needs command!"); //Broadcasts the message when console uses command
             return true;
