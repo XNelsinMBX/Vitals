@@ -5,9 +5,10 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.event.player.PlayerLoginEvent;
  
  
-public class Vitals extends JavaPlugin {
+public class Vitals extends JavaPlugin implements Listnener{
  
     public void OnPlayerLogin(PlayerLoginEvent event) {
      player.sendMessage(ChatColor.AQUA + "Welcome to this server")
@@ -17,12 +18,12 @@ public class Vitals extends JavaPlugin {
        
     @Override
     public void onEnable(){
-      getLogger().info("Vitals has been enabled sucessfully")
+      
     }
  
     @Override
     public void onDisable() {
-        getLogger().info("Vitals has been disabled sucessfully")
+        
     }
        
         if (!(sender instanceof Player )) {
